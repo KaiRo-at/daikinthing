@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Script for launching Daikin A/C WebThing.
+cd `dirname $0`
+source venv/bin/activate
+./daikinthing.py
